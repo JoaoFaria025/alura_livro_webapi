@@ -9,7 +9,7 @@ db.once("open", ()=>{
 
 const app = express();
 app.use(express.json());//POSTMAN RECONHECER O JSON COMO POST
-routes(app);//usar rotas
+routes(app);//usar app
 
 export default app
 
